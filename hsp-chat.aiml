@@ -1,0 +1,441 @@
+<aiml version="1.0.1" encoding="UTF-8">
+    <!-- hospital_chat.aiml -->
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            Hello! How can I assist you with hospital management today?
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT ARE YOUR WORKING HOURS</pattern>
+        <template>
+            Our hospital is open 24/7. For specific department hours, please check our website or call our front desk.
+        </template>
+    </category>
+    <category>
+        <pattern>WHERE IS THE EMERGENCY ROOM</pattern>
+        <template>
+            The Emergency Room is located on the ground floor, near the main entrance of the hospital.
+        </template>
+    </category>
+    <category>
+        <pattern>HOW CAN I MAKE AN APPOINTMENT</pattern>
+        <template>
+            You can make an appointment by calling our scheduling department at 123-456-7890 or by visiting our website.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT SERVICES DO YOU OFFER</pattern>
+        <template>
+            We offer a wide range of services including emergency care, surgery, diagnostic imaging, maternity care, and outpatient services.
+        </template>
+    </category>
+    <category>
+        <pattern>HOW CAN I CONTACT A DOCTOR</pattern>
+        <template>
+            To contact a doctor, please call the main hospital number and ask for the specific doctor’s office, or use our patient portal for secure messaging.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE VISITING HOURS</pattern>
+        <template>
+            Visiting hours are from 9:00 AM to 8:00 PM daily. For specific unit restrictions, please check with the nurse’s station.
+        </template>
+    </category>
+    <category>
+        <pattern>WHERE CAN I PARK</pattern>
+        <template>
+            Parking is available in the lots adjacent to the hospital. We also offer valet services at the main entrance.
+        </template>
+    </category>
+    <category>
+        <pattern>DO YOU HAVE A CAFETERIA</pattern>
+        <template>
+            Yes, we have a cafeteria located on the second floor, which is open from 7:00 AM to 7:00 PM.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT INSURANCES DO YOU ACCEPT</pattern>
+        <template>
+            We accept most major insurance plans. For a detailed list, please contact our billing department.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE EMERGENCY CONTACT NUMBER</pattern>
+        <template>
+            In case of emergency, please call 911. For non-emergency hospital-related issues, call our main number at 123-456-7890.
+        </template>
+    </category>
+    <category>
+        <pattern>CAN I REQUEST A MEDICAL RECORD</pattern>
+        <template>
+            Yes, you can request a medical record by filling out a release form at the medical records department or online through our patient portal.
+        </template>
+    </category>
+    <category>
+        <pattern>HOW DO I PAY MY BILL</pattern>
+        <template>
+            You can pay your bill online through our website, by mail, or in person at the billing office.
+        </template>
+    </category>
+    <category>
+        <pattern>WHERE CAN I FIND A PHARMACY</pattern>
+        <template>
+            The hospital pharmacy is located on the first floor, next to the main lobby.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE ADMISSION PROCESS</pattern>
+        <template>
+            The admission process involves checking in at the admissions desk, providing your insurance information, and completing any necessary paperwork.
+        </template>
+    </category>
+    <category>
+        <pattern>DO YOU OFFER LANGUAGE SERVICES</pattern>
+        <template>
+            Yes, we offer language translation services. Please inform the front desk or your nurse if you need assistance with a different language.
+        </template>
+    </category>
+    <category>
+        <pattern>ARE THERE ANY SPECIALTY CLINICS</pattern>
+        <template>
+            Yes, we have specialty clinics including cardiology, orthopedics, neurology, and oncology.
+        </template>
+    </category>
+    <category>
+        <pattern>CAN I GET A SECOND OPINION</pattern>
+        <template>
+            Yes, you can request a second opinion by scheduling an appointment with another specialist within our network.
+        </template>
+    </category>
+    <category>
+        <pattern>HOW CAN I VOLUNTEER</pattern>
+        <template>
+            To volunteer, please contact our volunteer services department at 123-456-7891 for more information on opportunities and requirements.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE HOSPITAL'S ADDRESS</pattern>
+        <template>
+            Our address is 123 Health Lane, Wellness City, HC 45678.
+        </template>
+    </category>
+    <category>
+        <pattern>DO YOU HAVE A PATIENT PORTAL</pattern>
+        <template>
+            Yes, we have a patient portal where you can view your medical records, schedule appointments, and communicate with your healthcare team.
+        </template>
+    </category>
+    <category>
+        <pattern>ARE THERE ANY COVID-19 PROTOCOLS</pattern>
+        <template>
+            Yes, we follow strict COVID-19 protocols including mask mandates, social distancing, and sanitization procedures. Please check our website for the latest updates.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE WAIT TIME FOR EMERGENCY ROOM</pattern>
+        <template>
+            Wait times can vary. For the most current wait time, please call the emergency room directly at 123-456-7892.
+        </template>
+    </category>
+    <category>
+        <pattern>HOW DO I REQUEST A HOME HEALTH CARE</pattern>
+        <template>
+            To request home health care services, please contact our home health department at 123-456-7893.
+        </template>
+    </category>
+    <category>
+        <pattern>DO YOU OFFER CHIROPRACTIC SERVICES</pattern>
+        <template>
+            We do not offer chiropractic services at this facility. However, we can refer you to a local chiropractor.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE POLICY ON PETS</pattern>
+        <template>
+            Pets are generally not allowed in patient areas. Service animals are an exception. Please contact the hospital for specific policies.
+        </template>
+    </category>
+    <category>
+        <pattern>CAN I GET A REFUND</pattern>
+        <template>
+            Refunds are processed through the billing department. Please contact them at 123-456-7894 for assistance.
+        </template>
+    </category>
+    <category>
+        <pattern>ARE THERE ANY SUPPORT GROUPS</pattern>
+        <template>
+            Yes, we offer support groups for various conditions. Please check our website or call our social services department for information.
+        </template>
+    </category>
+    <category>
+        <pattern>HOW DO I FILE A COMPLAINT</pattern>
+        <template>
+            Complaints can be filed by contacting our patient relations department at 123-456-7895 or through our website.
+        </template>
+    </category>
+    <category>
+        <pattern>DO YOU HAVE A GIFT SHOP</pattern>
+        <template>
+            Yes, our gift shop is located in the main lobby and is open from 9:00 AM to 5:00 PM.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE PAYMENT OPTIONS</pattern>
+        <template>
+            We accept cash, credit/debit cards, and checks. For payment plans, please contact our billing department.
+        </template>
+    </category>
+    <category>
+        <pattern>CAN I REQUEST A PRIVATE ROOM</pattern>
+        <template>
+            Private rooms are available based on availability. Please inquire about this at the admissions desk upon arrival.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE REQUIREMENTS FOR SURGERY</pattern>
+        <template>
+            Requirements for surgery include a pre-surgery consultation, medical clearance, and insurance authorization. Please contact our surgical department for specific details.
+        </template>
+    </category>
+    <category>
+        <pattern>DO YOU PROVIDE REHABILITATION SERVICES</pattern>
+        <template>
+            Yes, we offer rehabilitation services including physical therapy, occupational therapy, and speech therapy.
+        </template>
+    </category>
+    <category>
+        <pattern>WHERE CAN I FIND LAB RESULTS</pattern>
+        <template>
+            Lab results can be obtained through our patient portal or by contacting the lab department directly.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE POLICY ON ELECTRONIC DEVICES</pattern>
+        <template>
+            Electronic devices are allowed in designated areas. Please turn off devices or set them to silent mode in patient care areas.
+        </template>
+    </category>
+    <category>
+        <pattern>HOW DO I UPDATE MY CONTACT INFORMATION</pattern>
+        <template>
+            To update your contact information, please contact the registration department or update your details through the patient portal.
+        </template>
+    </category>
+    <category>
+        <pattern>CAN I SEE A NUTRITIONIST</pattern>
+        <template>
+            Yes, you can schedule an appointment with a nutritionist by contacting our dietary department.
+        </template>
+    </category>
+    <category>
+        <pattern>DO YOU OFFER PSYCHOLOGICAL SERVICES</pattern>
+        <template>
+            Yes, we offer psychological services including counseling and therapy. Please contact our mental health department for more information.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE PROCESS FOR DISCHARGE</pattern>
+        <template>
+            The discharge process includes receiving discharge instructions, finalizing any billing, and arranging follow-up care. Please speak with your nurse for details.
+        </template>
+    </category>
+    <category>
+        <pattern>DO YOU HAVE MATERNITY SERVICES</pattern>
+        <template>
+            Yes, we offer comprehensive maternity services including prenatal care, delivery, and postnatal care.
+        </template>
+    </category>
+    <category>
+        <pattern>WHERE CAN I FIND THE ONCOLOGY DEPARTMENT</pattern>
+        <template>
+            The Oncology Department is located on the third floor. Please follow the signs or ask at the information desk for directions.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE POLICY ON VISITORS</pattern>
+        <template>
+            Visitor policies vary by department. Please check with the nurse’s station for specific visiting rules and restrictions.
+        </template>
+    </category>
+    <category>
+        <pattern>DO YOU OFFER DENTAL SERVICES</pattern>
+        <template>
+            We do not offer dental services at this facility. However, we can provide a referral to a local dental practice.
+        </template>
+    </category>
+    <category>
+        <pattern>HOW CAN I ACCESS MY MEDICAL HISTORY</pattern>
+        <template>
+            You can access your medical history through our patient portal or by requesting records from the medical records department.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE POLICY ON MEDICATIONS</pattern>
+        <template>
+            Patients should only take medications prescribed by their doctor. If you have any questions about medications, please consult with your healthcare provider.
+        </template>
+    </category>
+    <category>
+        <pattern>CAN I REQUEST A MEETING WITH MY DOCTOR</pattern>
+        <template>
+            Yes, you can request a meeting with your doctor by calling their office directly or through the patient portal.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE ADVANCED DIRECTIVES</pattern>
+        <template>
+            Advanced directives are legal documents that specify your medical care preferences in case you are unable to communicate. Please consult with our social services department for assistance.
+        </template>
+    </category>
+    <category>
+        <pattern>DO YOU HAVE A CARDIOLOGY DEPARTMENT</pattern>
+        <template>
+            Yes, we have a Cardiology Department located on the second floor. For more details or to schedule an appointment, please call our cardiology office.
+        </template>
+    </category>
+    <category>
+        <pattern>WHERE CAN I FIND THE PATIENT RELATIONS OFFICE</pattern>
+        <template>
+            The Patient Relations Office is located near the main lobby. Please follow the signs or ask at the information desk.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE POLICY ON SMOKING</pattern>
+        <template>
+            Our hospital is a smoke-free facility. Smoking is not permitted anywhere on the premises.
+        </template>
+    </category>
+    <category>
+        <pattern>CAN I GET A COPY OF MY BILL</pattern>
+        <template>
+            Yes, you can request a copy of your bill by contacting our billing department or accessing your account through the patient portal.
+        </template>
+    </category>
+    <category>
+        <pattern>DO YOU HAVE A PEDIATRIC DEPARTMENT</pattern>
+        <template>
+            Yes, we have a Pediatric Department that provides care for children from infancy through adolescence. It is located on the fourth floor.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE POLICY ON CELL PHONES</pattern>
+        <template>
+            Cell phones should be used quietly and respectfully. Please follow hospital guidelines for cell phone use in patient areas.
+        </template>
+    </category>
+    <category>
+        <pattern>CAN I GET A TRANSPORT SERVICE</pattern>
+        <template>
+            Yes, we offer transport services for patients within the hospital. For external transport services, please contact a local ambulance provider.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE AVAILABLE SPECIALISTS</pattern>
+        <template>
+            We have a range of specialists including cardiologists, neurologists, orthopedic surgeons, and more. Please contact our referral department for specific needs.
+        </template>
+    </category>
+    <category>
+        <pattern>DO YOU PROVIDE SURGICAL SERVICES</pattern>
+        <template>
+            Yes, we offer a variety of surgical services including elective, emergency, and minimally invasive procedures.
+        </template>
+    </category>
+    <category>
+        <pattern>CAN I HAVE A TOBACCO-FREE ROOM</pattern>
+        <template>
+            All rooms in our hospital are tobacco-free. We provide support for patients who wish to quit smoking.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE PRE-ADMISSION REQUIREMENTS</pattern>
+        <template>
+            Pre-admission requirements include a medical evaluation, insurance verification, and completing any necessary forms. Please contact our admissions office for details.
+        </template>
+    </category>
+    <category>
+        <pattern>DO YOU OFFER CHRONIC DISEASE MANAGEMENT</pattern>
+        <template>
+            Yes, we offer management programs for chronic diseases such as diabetes, hypertension, and heart disease.
+        </template>
+    </category>
+    <category>
+        <pattern>HOW DO I FILE INSURANCE CLAIMS</pattern>
+        <template>
+            Insurance claims are typically filed by our billing department. Please provide your insurance information at the time of your visit.
+        </template>
+    </category>
+    <category>
+        <pattern>DO YOU HAVE A PHYSICAL THERAPY DEPARTMENT</pattern>
+        <template>
+            Yes, our Physical Therapy Department is located on the third floor. We offer a range of rehabilitation services.
+        </template>
+    </category>
+    <category>
+        <pattern>CAN I SCHEDULE A TELEMEDICINE APPOINTMENT</pattern>
+        <template>
+            Yes, telemedicine appointments can be scheduled through our patient portal or by contacting our scheduling department.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE MEDICAL CERTIFICATE PROCEDURES</pattern>
+        <template>
+            Medical certificates can be requested through your physician. Please contact their office for specifics on obtaining a certificate.
+        </template>
+    </category>
+    <category>
+        <pattern>HOW CAN I PROVIDE FEEDBACK</pattern>
+        <template>
+            Feedback can be provided through our website, by contacting patient relations, or filling out a feedback form available at our information desk.
+        </template>
+    </category>
+    <category>
+        <pattern>DO YOU OFFER PALLIATIVE CARE</pattern>
+        <template>
+            Yes, we offer palliative care services to manage pain and improve the quality of life for patients with serious illnesses.
+        </template>
+    </category>
+    <category>
+        <pattern>WHERE CAN I FIND THE NEUROLOGY DEPARTMENT</pattern>
+        <template>
+            The Neurology Department is located on the fifth floor. Please follow the signs or ask for directions at the main desk.
+        </template>
+    </category>
+    <category>
+        <pattern>DO YOU HAVE A SOCIAL SERVICES DEPARTMENT</pattern>
+        <template>
+            Yes, we have a Social Services Department that can assist with various needs including discharge planning and community resources.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT IS THE POLICY ON VISITOR NUMBERS</pattern>
+        <template>
+            Visitor numbers are regulated based on patient condition and unit policies. Please check with the nurse’s station for specific visitor limits.
+        </template>
+    </category>
+    <category>
+        <pattern>CAN I GET A COPY OF MY MEDICAL RECORDS</pattern>
+        <template>
+            Yes, you can request a copy of your medical records by completing a release form at the medical records department or through our patient portal.
+        </template>
+    </category>
+    <category>
+        <pattern>DO YOU PROVIDE MENTAL HEALTH SERVICES</pattern>
+        <template>
+            Yes, we provide mental health services including counseling and psychiatric evaluations. Please contact our mental health department for more information.
+        </template>
+    </category>
+    <category>
+        <pattern>HOW CAN I REQUEST INTERPRETER SERVICES</pattern>
+        <template>
+            Interpreter services can be requested by informing the front desk or your healthcare provider. We provide interpreters for various languages.
+        </template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE EMERGENCY PROCEDURES</pattern>
+        <template>
+            In case of an emergency, please call 911 or proceed directly to the Emergency Room. For internal emergencies, use the emergency call system.
+        </template>
+    </category>
+</aiml>
